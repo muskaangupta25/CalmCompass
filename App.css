@@ -1,0 +1,167 @@
+/* Center login form */
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+/* App.css */
+
+/* Global body styling */
+
+
+.App {
+  text-align: center;
+}
+
+/* Navbar styles */
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Section styling */
+.section {
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+button {
+  padding: 10px 20px;
+  background-color: #7f5b9e; /* Soft purple */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #6e4a7f; /* Darker shade of purple */
+}
+/* App.css */
+
+/* App.css */
+/* App.css */
+
+/* App.css */
+
+html, body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+/* src/index.css or global CSS file */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #6c5b7b;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  z-index: 1000;
+  width: 100%;
+}
+
+header {
+  top: 0;
+}
+
+
+
+main {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto; /* Allow scrolling within main content */
+  box-sizing: border-box;
+}
+body{
+  background-image: url('../public/images/BG.jpg');
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.8); /* Slightly opaque background */
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px; /* Max width of the form */
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6a1b9a; /* Dark purple */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #4a0072; /* Darker purple */
+}
