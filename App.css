@@ -30,8 +30,6 @@ form input {
 }
 
 
-/* App.css */
-
 /* Global body styling */
 
 
@@ -63,7 +61,7 @@ form input {
 }
 button {
   padding: 10px 20px;
-  background-color: #7f5b9e; /* Soft purple */
+  background-color: #7f5b9e; 
   color: white;
   border: none;
   border-radius: 5px;
@@ -72,14 +70,9 @@ button {
 }
 
 button:hover {
-  background-color: #6e4a7f; /* Darker shade of purple */
+  background-color: #6e4a7f; 
 }
-/* App.css */
 
-/* App.css */
-/* App.css */
-
-/* App.css */
 
 html, body {
   margin: 0;
@@ -93,10 +86,10 @@ html, body {
 html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden; 
   width: 100%;
   height: 100%;
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  box-sizing: border-box; 
 }
 
 
@@ -124,7 +117,7 @@ header {
 main {
   flex: 1;
   padding: 2rem;
-  overflow-y: auto; /* Allow scrolling within main content */
+  overflow-y: auto; 
   box-sizing: border-box;
 }
 body{
@@ -132,11 +125,11 @@ body{
 }
 
 .login-form {
-  background: rgba(255, 255, 255, 0.8); /* Slightly opaque background */
+  background: rgba(255, 255, 255, 0.8); 
   border-radius: 10px;
   padding: 20px;
   width: 100%;
-  max-width: 400px; /* Max width of the form */
+  max-width: 400px; 
 }
 
 .login-form h2 {
@@ -155,7 +148,7 @@ body{
 .login-form button {
   width: 100%;
   padding: 10px;
-  background-color: #6a1b9a; /* Dark purple */
+  background-color: #6a1b9a; 
   color: white;
   border: none;
   border-radius: 5px;
@@ -163,5 +156,5 @@ body{
 }
 
 .login-form button:hover {
-  background-color: #4a0072; /* Darker purple */
+  background-color: #4a0072; 
 }
