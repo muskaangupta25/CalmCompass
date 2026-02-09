@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import SelfAssessment from "./components/SelfAssessment";
 import DepressionQuiz from "./components/DepressionQuiz";
 import AnxietyQuiz from "./components/AnxietyQuiz";
-import AdhdQuiz from "./components/ADHDQuiz"; // Import your styles
+import AdhdQuiz from "./components/ADHDQuiz"; 
 
 
 function ADHDQuiz() {
@@ -29,7 +29,7 @@ function App() {
     return (
         <Router>
             <div className="App">
-                {!isLoggedIn ? (
+                {!isLoggedIn? (
                     <Login onLogin={handleLogin} />
                 ) : (
                     <>
