@@ -1,0 +1,35 @@
+/* Footer.css */
+
+footer {
+    background-color: #e0c3fc; /* Aesthetic purple or lilac color */
+    color: #fff;
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer-spacing {
+    padding-bottom: 30px; /* Extra space between content and footer */
+}
+
+
+.footer p {
+    margin: 5px 0;
+    color: #e6d6e6;
+}
+
+.footer a {
+    color: #e6d6e6; /* Light lilac for links */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+footer {
+    bottom: 0;
+    position: sticky;
+}

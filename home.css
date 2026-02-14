@@ -1,0 +1,60 @@
+/* Home.css */
+
+.home-container {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #f9f9f9; /* Light background for a soft look */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #4a3f54; /* Deep purple for main headings */
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    color: #6e5b8b; /* Lilac color for introduction text */
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.features {
+    margin-bottom: 30px;
+}
+
+.features h2 {
+    font-size: 2rem;
+    color: #7f5b9e; /* Soft purple for section headings */
+    margin-bottom: 15px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    background-color: #e6d6e6; /* Light lilac for list items */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.logoimage {
+    width: 450px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+padding-top: 0;
+}
+.call-to-action {
+    font-size: 1.1rem;
+    color: #6e5b8b; /* Lilac color for call-to-action text */
+    margin-top: 20px;
+}

@@ -1,0 +1,40 @@
+/* SelfAssessment.css */
+.self-assessment {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.self-assessment h2 {
+    color: #7f5b9e;
+}
+
+.self-assessment p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.quiz-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.quiz-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #7f5b9e;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-button:hover {
+    background-color: #6e4a7f;
+}

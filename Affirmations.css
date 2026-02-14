@@ -1,0 +1,57 @@
+/* Affirmations.css */
+
+.affirmations-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f3e9f5; /* Light lilac background for calmness */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #4a3f54; /* Deep purple for headings */
+    margin-bottom: 20px;
+}
+
+.affirmations-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.affirmations-form input {
+    padding: 10px;
+    border: 1px solid #d6b6e1; /* Light lilac border */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.affirmations-form button {
+    padding: 10px;
+    background-color: #7f5b9e; /* Soft purple */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.affirmations-form button:hover {
+    background-color: #6e4a7f; /* Darker purple on hover */
+}
+
+.affirmations-list {
+    margin-top: 20px;
+}
+
+.affirmation-item {
+    background-color: #e6d6e6; /* Light lilac for list items */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}

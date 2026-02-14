@@ -1,0 +1,62 @@
+/* src/components/Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-image: url('../components/BG.jpg');
+}
+
+.logo-image {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 0.1rem;
+}
+.login-form {
+    background: white; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Max width of the form */
+    width: 100%; /* Full width up to max-width */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center; /* Center text */
+}
+
+.login-form label {
+    width: 100%; /* Full width for labels */
+    text-align: left; /* Align label text to the left */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+.login-form input {
+    width: 100%; /* Full width of the form */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.login-form button {
+    width: 100%; /* Full width of the form */
+    padding: 10px;
+    background-color: #6a1b9a; /* Dark purple */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.login-form button:hover {
+    background-color: #4a0072; /* Darker purple */
+}
